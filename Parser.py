@@ -74,8 +74,6 @@ class SiteParser:
             else:
                 self.write_movie_to_csv()
                 return len(self.movie_list)
-        self.write_movie_to_csv()
-        return len(self.movie_list)
 
 
 if __name__ == "__main__":
